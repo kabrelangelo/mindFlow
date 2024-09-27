@@ -7,7 +7,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
-    <div className="container mx-auto px-4 py-16 lg:flex items-center">
+    <div className="container rounded-xl border border-gray-500 mx-auto px-4 py-16 lg:flex items-center">
       {/* Contenu gauche */}
       <motion.div 
         initial={{ opacity: 0, x: -50 }}
@@ -15,7 +15,7 @@ const Collaboration = () => {
         transition={{ duration: 0.5 }}
         className="lg:w-1/2 lg:pr-16"
       >
-        <h2 className="text-4xl font-bold mb-8 text-white">AI Chat App pour une Collaboration Fluide</h2>
+        <h2 className="lg:text-5xl text-3xl mx-5 font-bold mb-8">Une App de Chat pour une Collaboration Fluide</h2>
 
         <ul className="space-y-6 mb-10">
           {collabContent.map((item) => (
