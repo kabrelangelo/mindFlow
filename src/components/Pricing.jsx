@@ -1,8 +1,8 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
     return (
-        <div className="container relative z-2">
+        <div className="container relative z-2" id="pricing">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
             src="./src/assets/4-small.png"
@@ -38,12 +38,12 @@ const Pricing = () => {
           <span className="text-sm font-medium text-gray-700">/mois</span>
         </p>
 
-        <a
+        <Link
           className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-          href="#"
+          to="#"
         >
           Démarrer
-        </a>
+        </Link>
       </div>
 
       <div className="p-6 sm:px-8">
@@ -158,12 +158,12 @@ const Pricing = () => {
           <span className="text-sm font-medium text-gray-700">/mois</span>
         </p>
 
-        <a
+        <Link
           className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-          href="#"
+          to="#"
         >
-          Get Started
-        </a>
+          Démarrer
+        </Link>
       </div>
 
       <div className="p-6 sm:px-8">
@@ -273,21 +273,21 @@ const Pricing = () => {
         <p className="mt-2 text-gray-900 text-xl">Conçu pour entreprises</p>
 
         <p className="mt-2 sm:mt-4">
-          <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 100$ </strong>
+          <strong className="text-3xl font-bold text-gray-900 sm:text-4xl"> 35 000 FCFA </strong>
 
-          <span className="text-sm font-medium text-gray-700">/month</span>
+          <span className="text-sm font-medium text-gray-700">/mois</span>
         </p>
 
-        <a
+        <Link
           className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-          href="#"
+          to="#"
         >
-          Get Started
-        </a>
+          Démarrer
+        </Link>
       </div>
 
       <div className="p-6 sm:px-8">
-        <p className="text-lg font-medium text-gray-900 sm:text-xl">What's included:</p>
+        <p className="text-lg font-medium text-gray-900 sm:text-xl">Ce qui est inclus :</p>
 
         <ul className="mt-2 space-y-2 sm:mt-4">
           <li className="flex items-center gap-1">
