@@ -3,11 +3,11 @@ import Marquee from 'react-fast-marquee';
 
 const LogoCarousel = () => {
   const elements = [
-    { id: 1, image: "./src/assets/companies/img-color-1.svg" },
-    { id: 2, image: "./src/assets/companies/img-color-2.svg" },
-    { id: 3, image: "./src/assets/companies/img-color-3.svg" },
-    { id: 4, image: "./src/assets/companies/img-color-4.svg" },
-    { id: 5, image: "./src/assets/companies/img-color-5.svg" }
+    { id: 1, image: "./assets/companies/img-color-1.svg" },
+    { id: 2, image: "./assets/companies/img-color-2.svg" },
+    { id: 3, image: "./assets/companies/img-color-3.svg" },
+    { id: 4, image: "./assets/companies/img-color-4.svg" },
+    { id: 5, image: "./assets/companies/img-color-5.svg" }
   ];
 
   return (

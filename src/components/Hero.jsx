@@ -1,7 +1,7 @@
 import Button from "./Button";
 import LogoCarousel from "./LogoCarousel";
-import robot from '../assets/hero/robot.jpg'
-import curve from '../assets/hero/curve.png'
+import robot from '../../public/assets/hero/robot.jpg'
+import curve from '../../public/assets/hero/curve.png'
 
 
 

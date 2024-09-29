@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { brainwaveSymbol, check } from "../assets";
+import { brainwaveSymbol, check } from "../../public/assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import { LeftCurve, RightCurve } from "./design/Collaboration";

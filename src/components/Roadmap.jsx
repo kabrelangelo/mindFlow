@@ -28,7 +28,7 @@ const Roadmap = () => {
                         <p className="text-sm">Fait</p>
                     </span>
                     <img
-                        src="./src/assets/roadmap/image-1.png"
+                        src="./assets/roadmap/image-1.png"
                         alt="game"
                         className="object-cover w-full"
                     />
@@ -59,7 +59,7 @@ const Roadmap = () => {
                         <p className="text-sm">Fait</p>
                     </span>
                     <img
-                        src="./src/assets/roadmap/image-3.png"
+                        src="./assets/roadmap/image-3.png"
                         alt="game"
                         className="object-cover w-full"
                     />
@@ -91,7 +91,7 @@ const Roadmap = () => {
                         <p className="text-sm">Fait</p>
                     </span>
                     <img
-                        src="./src/assets/roadmap/image-2.png"
+                        src="./assets/roadmap/image-2.png"
                         alt="game"
                         className="object-cover w-full"
                     />
@@ -121,7 +121,7 @@ const Roadmap = () => {
                         <p className="text-sm">Fait</p>
                     </span>
                     <img
-                        src="./src/assets/roadmap/image-4.png"
+                        src="./assets/roadmap/image-4.png"
                         alt="game"
                         className="object-cover w-full"
                     />

@@ -2,11 +2,11 @@ import React from 'react';
 
 const Services = () => {
     const brainwaveServicesIcons=[
-        {id:1, image:"./src/assets/recording-01.svg" },
-        {id:2, image:"./src/assets/recording-03.svg" },
-        {id:3, image:"./src/assets/disc-02.svg" },
-        {id:4, image:"./src/assets/sliders-04.svg" },
-        {id:5, image:"./src/assets/chrome-cast.svg" },
+        {id:1, image:"../../public/assets/recording-01.svg" },
+        {id:2, image:"../../public/assets/recording-03.svg" },
+        {id:3, image:"../../public/assets/disc-02.svg" },
+        {id:4, image:"../../public/assets/sliders-04.svg" },
+        {id:5, image:"../../public/assets/chrome-cast.svg" },
     ]
     return (
         <div className='mt-20' id='services'>
@@ -20,7 +20,7 @@ const Services = () => {
         </div>
         <div className=' grid lg:grid-cols-3 grid-cols-1 gap-5 border border-gray-500 rounded-xl p-2'>
             <div className='lg:col-span-2 '>
-                <img src="./src/assets/services/service-1.png" alt="Service" className="w-full object-cover rounded-xl" />
+                <img src="../../public/assets/services/service-1.png" alt="Service" className="w-full object-cover rounded-xl" />
             </div>
             <div className='justify-center items-center lg:my-40 p-5 rounded-xl'>
                 <h4 className='lg:text-3xl text-xl m-5 font-bold'>La plus futée des IA</h4>
@@ -30,21 +30,21 @@ const Services = () => {
                     <span className="h-px flex-1 bg-black"></span>
                 </span>
                 <div className='flex'>
-                <img src="./src/assets/check.svg" alt=""  />
+                <img src="../../public/assets/check.svg" alt=""  />
                 <h6 className='text-xl font-semibold mx-4'>Génération de photo</h6>
                 </div>
                 <span className="flex items-center py-4">
                     <span className="h-px flex-1 bg-black"></span>
                 </span>
                 <div className='flex'>
-                <img src="./src/assets/check.svg" alt=""  />
+                <img src="../../public/assets/check.svg" alt=""  />
                 <h6 className='text-xl font-semibold mx-4'>Amélioration de photo</h6>
                 </div>
                 <span className="flex items-center py-4">
                     <span className="h-px flex-1 bg-black"></span>
                 </span>
                 <div className='flex'>
-                <img src="./src/assets/check.svg" alt=""  />
+                <img src="../../public/assets/check.svg" alt=""  />
                 <h6 className='text-xl font-semibold mx-4'>Intégration transparente</h6>
                 </div>
                 
@@ -55,7 +55,7 @@ const Services = () => {
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src="./src/assets/services/service-2.png"
+                  src="../../public/assets/services/service-2.png"
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
@@ -106,7 +106,7 @@ const Services = () => {
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
-                  src="./src/assets/services/service-3.png"
+                  src="../../public/assets/services/service-3.png"
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}

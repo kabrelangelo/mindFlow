@@ -1,5 +1,5 @@
-import ButtonGradient from "./assets/svg/ButtonGradient"
-import Benefits from "./components/Benefits"
+import ButtonGradient from './assets/svg/ButtonGradient'
+// import Benefits from "./components/Benefits"
 import Collaboration from "./components/Collaboration"
 import Footer from "./components/Footer"
 import Header from "./components/Header"

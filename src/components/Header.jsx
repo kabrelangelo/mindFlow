@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { brainwave } from "../assets"; // Image/logo que tu utilises
+import { brainwave } from "../../public/assets"; // Image/logo que tu utilises
 
 const Header = () => {
   const [openNavigation, setOpenNavigation] = useState(false);
