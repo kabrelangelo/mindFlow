@@ -9,7 +9,7 @@ const Services = () => {
         {id:5, image:"./src/assets/chrome-cast.svg" },
     ]
     return (
-        <div className='my-20'>
+        <div className='mt-20' id='services'>
         <div className='text-center flex flex-col justify-center items-center'>
             <h2 className='text-3xl lg:text-5xl font-bold m-5'>
                 L'IA Générative à Votre Service

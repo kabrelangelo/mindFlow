@@ -63,18 +63,19 @@ const Collaboration = () => {
               <img src={brainwaveSymbol} width={64} height={64} alt="brainwave symbol" />
             </motion.div>
 
-            <ul className="absolute inset-0">
+            <ul className="absolute mx-5 inset-0">
               {collabApps.map((app, index) => {
-                const angle = (index * 360) / collabApps.length;
-                const radian = (angle * Math.PI) / 180;
-                const radius = 44; // Pourcentage du rayon pour le placement
+                const angle = (index * 2 * Math.PI) / collabApps.length;
+                const x = Math.cos(angle);
+                const y = Math.sin(angle);
                 return (
                   <motion.li
                     key={app.id}
                     className="absolute"
                     style={{
-                      top: `${50 - Math.cos(radian) * radius}%`,
-                      left: `${50 + Math.sin(radian) * radius}%`,
+                      top: `${50 + y * 50}%`,
+                      left: `${50 + x * 50}%`,
+                      transform: 'translate(-50%, -50%)',
                     }}
                     whileHover={{ scale: 1.2 }}
                     transition={{ type: "spring", stiffness: 400, damping: 10 }}
