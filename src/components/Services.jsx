@@ -20,7 +20,7 @@ const Services = () => {
         </div>
         <div className=' grid lg:grid-cols-3 grid-cols-1 gap-5 border border-gray-500 rounded-xl p-2'>
             <div className='lg:col-span-2 '>
-                <img src="../../public/assets/services/service-1.png" alt="Service" className="w-full object-cover rounded-xl" />
+                <img src="./assets/services/service-1.png" alt="Service" className="w-full object-cover rounded-xl" />
             </div>
             <div className='justify-center items-center lg:my-40 p-5 rounded-xl'>
                 <h4 className='lg:text-3xl text-xl m-5 font-bold'>La plus futée des IA</h4>
